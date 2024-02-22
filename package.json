@@ -2,7 +2,8 @@
   "name": "pqr-syntax-highlighting",
   "displayName": "PQR Syntax Highlighting",
   "description": "Syntax highlighting for Proto-Quipper-R",
-  "version": "0.0.1",
+  "repository" : "https://github.com/andcol/pqr-syntax-highlighting",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.86.0"
   },

@@ -25,6 +25,10 @@
 					"match": "--.*$"
 				},
         {
+          "name" : "markup.bold",
+          "match": "\\b[A-Z][A-Za-z0-9_]*\\b"
+        },
+        {
           "name": "comment.block",
           "begin": "{-",
           "end": "-}"
