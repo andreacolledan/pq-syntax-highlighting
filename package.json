@@ -1,0 +1,37 @@
+{
+  "name": "pqr-syntax-highlighting",
+  "displayName": "PQR Syntax Highlighting",
+  "description": "Syntax highlighting for Proto-Quipper-R",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "pqr",
+        "aliases": [
+          "PQR",
+          "pqr"
+        ],
+        "extensions": [
+          ".pqr"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pqr",
+        "scopeName": "source.pqr",
+        "path": "./syntaxes/pqr.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
