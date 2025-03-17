@@ -7,9 +7,8 @@ This extension provides syntax highlighting for the PQ language.
 This extensions provides very basic syntax highlighting for
 - Line and block comments
 - Types
-- Constants
-- Primitive operators (e.g. lift, force, fold, ...)
-- Control structures (e.g. let-in)
+- Primitive operators (e.g. lift, force, ...)
+- Control structures (e.g. let-in, fold, ...)
 
 Without highlighting       |  With highlighting
 :-------------------------:|:-------------------------:
