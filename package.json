@@ -3,7 +3,7 @@
   "displayName": "PQ Syntax Highlighting",
   "description": "Syntax highlighting for PQ",
   "repository" : "https://github.com/andcol/pq-syntax-highlighting",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.86.0"
   },
