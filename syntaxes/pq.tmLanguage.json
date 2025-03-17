@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "PQR",
+	"name": "PQ",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -13,20 +13,20 @@
 		"keywords": {
 			"patterns": [
 				{
-					"name": "keyword.control.pqr",
-					"match": "\\b(let|in)\\b"
+					"name": "keyword.control.pq",
+					"match": "\\b(let|in|fold)\\b"
 				},
 				{
-					"name": "entity.name.function",
-					"match": "\\b(return|lift|fold|box|force)\\b"
+					"name": "entity.name.function.pq",
+					"match": "\\b(sum|max|lift|box|force|apply|forall)\\b"
 				},
 				{
 					"name": "comment.line.double-dash",
 					"match": "--.*$"
 				},
         {
-          "name" : "markup.bold",
-          "match": "\\b[A-Z][A-Za-z0-9_]*\\b"
+          "name" : "entity.name.type.pq",
+          "match": "\\b(Circ|Bit|Qubit|List)\\b"
         },
         {
           "name": "comment.block",
@@ -36,5 +36,5 @@
 			]
 		}
 	},
-	"scopeName": "source.pqr"
+	"scopeName": "source.pq"
 }

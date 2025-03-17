@@ -1,9 +1,9 @@
 {
-  "name": "pqr-syntax-highlighting",
-  "displayName": "PQR Syntax Highlighting",
-  "description": "Syntax highlighting for Proto-Quipper-R",
-  "repository" : "https://github.com/andcol/pqr-syntax-highlighting",
-  "version": "1.0.0",
+  "name": "pq-syntax-highlighting",
+  "displayName": "PQ Syntax Highlighting",
+  "description": "Syntax highlighting for PQ",
+  "repository" : "https://github.com/andcol/pq-syntax-highlighting",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -13,22 +13,22 @@
   "contributes": {
     "languages": [
       {
-        "id": "pqr",
+        "id": "pq",
         "aliases": [
-          "PQR",
-          "pqr"
+          "PQ",
+          "pq"
         ],
         "extensions": [
-          ".pqr"
+          ".pq"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "pqr",
-        "scopeName": "source.pqr",
-        "path": "./syntaxes/pqr.tmLanguage.json"
+        "language": "pq",
+        "scopeName": "source.pq",
+        "path": "./syntaxes/pq.tmLanguage.json"
       }
     ]
   },

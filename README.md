@@ -1,6 +1,6 @@
-# pqr-syntax-highlighting README
+# pq-syntax-highlighting README
 
-This extension provides syntax highlighting for the Proto-Quipper-R language.
+This extension provides syntax highlighting for the PQ language.
 
 ## Features
 
@@ -17,6 +17,12 @@ Without highlighting       |  With highlighting
 
 
 ## Release Notes
+
+### 1.1.0
+
+Rebranded the language as PQ and added support for new syntax:
+- Top-level declarations
+- Local metric annotations
 
 ### 1.0.0
 
